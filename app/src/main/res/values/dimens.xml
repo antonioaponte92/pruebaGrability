@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="anchoCardView">250dp</dimen>
+    <dimen name="altoCardView">250dp</dimen>
+    <dimen name="altoFoto">60dp</dimen>
+    <dimen name="cardMargin">2dp</dimen>
+    <dimen name="paddingTitulo">10dp</dimen>
+    <dimen name="paddingCard">8dp</dimen>
+    <dimen name="paddingDescr">10dp</dimen>
+    <dimen name="anchoMenuCat">50dp</dimen>
+    <dimen name="paddingChipsHorizontal">5dp</dimen>
+    <dimen name="paddingChipsVertical">5dp</dimen>
+    <dimen name="altoFotoDetalle">100dp</dimen>
+    <dimen name="anchoFotoDetalle">100dp</dimen>
+    <dimen name="TitulosDetailsTextSize">16sp</dimen>
+    <dimen name="detalleDetailsTextSize">12sp</dimen>
+    <dimen name="noFoundSize">20sp</dimen>
+</resources>

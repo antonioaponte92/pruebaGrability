@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_comprar"
+        android:orderInCategory="100"
+        android:title="@string/comprar" />
+
+    <item
+        android:id="@+id/action_link"
+        android:orderInCategory="101"
+        android:title="@string/abrirEnlace" />
+</menu>

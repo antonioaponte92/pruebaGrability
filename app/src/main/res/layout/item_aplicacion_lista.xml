@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linearCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        android:layout_margin="@dimen/cardMargin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/paddingCard"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/cardFoto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altoFoto"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_splash"
+                android:paddingRight="@dimen/paddingCard"
+                android:layout_weight="40"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Título app"
+                    android:textColor="@color/titulos"
+                    android:layout_marginBottom="1dp"/>
+                <TextView
+                    android:id="@+id/descr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Compañía app"
+                    android:textColor="@color/descripciones"/>
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/appPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gratis"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="right|bottom"
+                    android:layout_gravity="right|bottom" />
+
+                <ImageView
+                    android:id="@+id/overflow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_dots"
+                    android:layout_weight="5"
+                    android:layout_gravity="right|top"/>
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
